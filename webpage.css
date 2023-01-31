@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+}
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    background: linear-gradient(to right, grey, white, grey);
+}
+h2 {
+    color: black;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: grey;
+}
+div div h2 {
+    text-align: center;
+}
+.clist {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+}
+.clist li {
+    margin: 50px;
+    text-align: center;
+}
+.clist li a {
+    color: white;
+}
+ footer {
+    background-color: aquamarine;
+ }
+  @media (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 900px) {
+    #first-section {
+      background-color: yellow; 
+    }
+  }
+  
+  @media (min-width: 900px) {
+    footer {
+      background-color: black; 
+    }
+  }
+  .Contacts {
+    color: white;
+  }
+  .Phone {
+    color: white;
+  }
